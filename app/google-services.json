@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "377755069407",
+    "firebase_url": "https://shahaneri141197.firebaseio.com",
+    "project_id": "shahaneri141197",
+    "storage_bucket": "shahaneri141197.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377755069407:android:959ba43561c9830c",
+        "android_client_info": {
+          "package_name": "user.admin.com.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377755069407-s25t980q7oi2jf96tfojkrok55q8sb8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-zkDKys4ThABIKleURXeueXHIUtkElos"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

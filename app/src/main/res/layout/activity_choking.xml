@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f7a1a1"
+    android:layout_width="350dp"
+    android:layout_height="450dp">
+    <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/activity_chocking"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Aid For Choking"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#4E342E"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/chock1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/choking1"
+            android:textSize="20sp"
+            android:layout_marginLeft="8dp"
+           android:padding="8dp"
+            android:textColor="#4E342E"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/choking2"
+            android:textColor="#4E342E"
+            android:layout_marginLeft="8dp"
+            android:padding="8dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/choking3"
+            android:textColor="#4E342E"
+            android:layout_marginLeft="8dp"
+            android:padding="8dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/choking4"
+            android:textColor="#4E342E"
+            android:layout_marginLeft="8dp"
+            android:padding="8dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/choking5"
+            android:textColor="#4E342E"
+            android:layout_marginLeft="8dp"
+            android:padding="8dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#b46363"
+    android:layout_width="350dp"
+    android:layout_height="450dp">
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_burn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="user.admin.com.firstaid.Burn">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Aid For Burns"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_margin="16dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Minor burns:"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="24sp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/burns1"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:text="@string/burns2"
+    android:layout_marginLeft="8dp"/>
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Major burns:"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/burns3"
+        android:textColor="#fff"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/burns4"
+        android:textColor="#fff"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/burns5"
+        android:textColor="#fff"
+        android:layout_margin="8dp" />
+
+</LinearLayout>
+</ScrollView>
+    </LinearLayout>

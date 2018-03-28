@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="user.admin.com.myapplication.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Around the world"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:layout_margin="12dp"
+            android:id="@+id/txt_around_the_world"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+
+
+    <TextView
+        android:layout_below="@id/txt_around_the_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_name_of_disaster"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#000"
+        android:text="Earthquake:"/>
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@+id/txt_name_of_disaster"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+
+    <!-- Empty view is only visible when the list has no items. -->
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <!-- Loading indicator for user feedback between queries to USGS -->
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

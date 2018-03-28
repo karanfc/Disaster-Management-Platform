@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">Disaster Management </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="burns1">1)Cool the burn to help soothe the pain.
+        Hold the burned area under cool (not cold) running water for 10 to 15 minutes or until the pain eases.
+        Or apply a clean towel dampened with cool tap water.</string>
+    <string name="burns2">2)Don\'t break small blisters.
+        If blisters break, gently clean the area with mild soap and water,
+        apply an antibiotic ointment, and cover it with a nonstick gauze bandage.</string>
+    <string name="burns3">Call for emergency medical help for major burns.
+        Until an emergency unit arrives, take these actions:</string>
+    <string name="burns4"> Make sure the person you\'re helping is not in contact with smoldering materials or exposed to smoke or heat.
+        But don\'t remove burned clothing stuck to the skin.
+        Remove jewelry, belts and other restrictive items, especially from around burned areas and the neck</string>
+    <string name="burns5">Check for signs of circulation. Look for breathing, coughing or movement.
+        Begin CPR if needed.</string>
+     <string name="Earthquake">If you are indoors during an earthquake
+
+Ensure you do the following if you are indoors during an earthquake:
+
+DROP to the ground; take COVER by getting under a sturdy table or other piece of furniture; and HOLD ON until the shaking stops. If there isn’t a table or desk near you, cover your face and head with your arms and crouch in an inside corner of the building.Stay away from glass, windows, outside doors and walls, and anything that could fall, such as lighting fixtures or furniture.Stay in bed if you are there when the earthquake strikes. Hold on and protect your head with a pillow, unless you are under a heavy light fixture that could fall. In that case, move to the nearest safe place.Do not use a doorway except if you know it is a strongly supported, load-bearing doorway and it is close to you. Many inside doorways are lightly constructed and do not offer protection.Stay inside until the shaking stops and it is safe to go outside. Do not exit a building during the shaking. Research has shown that most injuries occur when people inside buildings attempt to move to a different location inside the building or try to leave.DO NOT use the elevators.Be aware that the electricity may go out or the sprinkler systems or fire alarms may turn on.
+
+If you are outdoors during an earthquake</string>
+    <string name="Volcano">Follow the evacuation order issued by authorities and evacuate immediately from the volcano area to avoid flying debris, hot gases, lateral blast and lava flow.
+
+Be aware of mudflows
+The danger from a mudflow increases near stream channels and with prolonged heavy rains. Mudflows can move faster than you can walk or run. Look upstream before crossing a bridge and do not cross the bridge if a mudflow is approaching.Avoid river valleys and low-lying areas.
+
+Remember to help your neighbors who may require special assistance - infants, elderly people and people with access and functional needs
+
+
+Protection From Falling Ash
+
+If you are unable to evacuate, and in order to protect yourself from falling ash, you should remain indoors with doors, windows and ventilation closed until the ash settles.
+
+If you have a respiratory ailment, avoid contact with any amount of ash.
+
+Stay indoors until local health officials advise it is safe to go outside.
+Listen to a battery-powered radio or television for the latest emergency information.
+
+Wear long-sleeved shirts and long pants.
+
+Use goggles and wear eyeglasses instead of contact lenses.
+
+Use a dust mask or hold a damp cloth over your face to help with breathing.</string>
+    <string name="Tsunami">Follow the evacuation order issued by authorities and evacuate immediately. Take your animals with you.
+
+Move to high ground or inland and away from water immediately.
+
+Stay away from the beach.
+
+Never go down to the beach to watch a tsunami come in. If you can see the wave you are too close to escape it. CAUTION - If there is noticeable recession in water away from the shoreline this is nature\'s tsunami warning and it should be heeded. You should move away immediately.
+
+Save yourself - not your possessions.
+
+Remember to help your neighbors who may require special assistance - infants, elderly people, and individuals with access or functional needs.</string>
+<string name="Hurricane">Stay inside and away from windows, skylights and glass doors. Find a safe area in the home \(an interior room, a closet or bathroom on the lower level\).
+
+If flooding threatens a home, turn off electricity at the main breaker
+
+.If a home loses power, turn off major appliances such as the air conditioner and water heater to reduce damage.
+
+Do not use electrical appliances, including your computer.
+
+Do not go outside. If the eye of the storm passes over your area, there will be a short period of calm, but at the other side of the eye, the wind speed rapidly increases to hurricane force and will come from the opposite direction. Also, do not go outside to see \"what the wind feels like.\" It is too easy to be hit by flying debris.
+
+Beware of lightning. Stay away from electrical equipment. Don\'t use the phone or take a shower during the storm.</string>
+
+    <string name="sign_out">Sign Out</string>
+    <string name="send_button_label">Send</string>
+
+
+    <string name="near_the">Near the</string>
+
+    <!-- Text to display in the list when there are no earthquakes [CHAR LIMIT=NONE] -->
+    <string name="no_earthquakes">No earthquakes found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Earthquake Settings</string>
+
+    <!-- Strings For Minimum Magnitude Preference [CHAR LIMIT=30] -->
+    <string name="settings_min_magnitude_label">Minimum Magnitude</string>
+    <string name="settings_min_magnitude_key" translatable="false">min_magnitude</string>
+    <string name="settings_min_magnitude_default" translatable="false">6</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_magnitude_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_magnitude_label">Magnitude</string>
+    <string name="settings_order_by_magnitude_value" translatable="false">magnitude</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">time</string>
+
+
+    <string name="choking1">Give 5 back blows</string>
+
+    <string name="choking2"> First, deliver five back blows between the person\'s shoulder blades with the heel of your hand.</string>
+
+    <string name="choking3">Give 5 abdominal thrusts. </string>
+
+    <string name="choking4">Perform five abdominal thrusts (also known as the Heimlich maneuver).</string>
+
+    <string name="choking5">Alternate between 5 blows and 5 thrusts until the blockage is dislodge</string>
+
+    <string name="bleeding1">1) Remove any obvious dirt or debris from the wound. Don\'t remove large or deeply embedded objects. Don\'t probe the wound or attempt to clean it yet.</string>
+
+    <string name="bleeding2">2) Stop the bleeding. Place a sterile bandage or clean cloth on the wound. Press the bandage firmly with your palm to control bleeding. Maintain pressure by binding the wound tightly with a bandage or a piece of clean cloth. Secure with adhesive tape. Use your hands if nothing else is available Raise the injured part above the level of the heart.</string>
+
+    <string name="bleeding3">3) Help the injured person lie down, preferably on a rug or blanket to prevent loss of body heat. If possible, elevate the legs.</string>
+
+    <string name="bleeding4">4)Don\'t remove the gauze or bandage. If the bleeding seeps through the gauze or other cloth on the wound, add another bandage on top of it. And keep pressing firmly on the area.</string>
+
+    <string name="bleeding5">Immobilize the injured body part once the bleeding has stopped</string>
+
+    <string name="insectbite1">1)Move to a safe area to avoid more bites or stings</string>
+
+    <string name="insectbite2">2)If needed, remove the stinger.</string>
+
+    <string name="insectbite3">3)Wash the area with soap and water.</string>
+
+    <string name="insectbite4">4)Apply a cool compress. Use a cloth dampened with cold water or filled with ice. This helps reduce pain and swelling. If the injury is on an arm or leg, elevate it.</string>
+
+    <string name="insectbite5">5)Apply a cream, gel or lotion to the injured area. Use products containing ingredients such as hydrocortisone, pramoxine or lidocaine to help control pain. Use creams such as calamine lotion or those containing colloidal oatmeal or baking soda to help soothe itchy skin.</string>
+
+    <string name="insectbite6">6)Use over-the-counter medications. Try a pain reliever, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others), or an antihistamine (Benadryl, Chlor-Trimeton, others).</string>
+
+    <string name="fracture1">Call emergency immediately</string>
+
+    <string name="fracture2">Till then,Stop any bleeding. Apply pressure to the wound with a sterile bandage, a clean cloth or a clean piece of clothing.</string>
+
+    <string name="fracture3">Immobilize the injured area. Don\'t try to realign the bone or push a bone that\'s sticking out back in.</string>
+
+    <string name="fracture4">If you\'ve been trained in how to splint and professional help isn\'t readily available, apply a splint to the area above and below the fracture sites. Padding the splints can help reduce discomfort.</string>
+
+    <string name="fracture5">Apply ice packs to limit swelling and help relieve pain. Don\'t apply ice directly to the skin. Wrap the ice in a towel, piece of cloth or some other material.</string>
+
+    <string name="fracture6">Treat for shock. If the person feels faint or is breathing in short, rapid breaths, lay the person down with the head slightly lower than the trunk and, if possible, elevate the legs. </string>
+
+    <string name="dislocation1">Don\'t delay medical care. Get medical help immediately.</string>
+
+    <string name="dislocation2">Don\'t move the joint. Until you receive help, splint the affected joint into its fixed position.</string>
+
+    <string name="dislocation3">Don\'t try to move a dislocated joint or force it back into place. This can damage the joint and its surrounding muscles, ligaments, nerves or blood vessels.</string>
+
+    <string name="dislocation4">Put ice on the injured joint. This can help reduce swelling by controlling internal bleeding and the buildup of fluids in and around the injured joint.</string>
+
+    <string name="sprain1">Rest the injured limb. </string>
+
+    <string name="sprain2">Use crutches, a splint or brace.</string>
+
+    <string name="sprain3">Ice the area. Use a cold pack, a slush bath or a compression sleeve filled with cold water to help limit swelling after an injury. Try to ice the area as soon as possible after the injury and continue to ice it for 15 to 20 minutes, four to eight times a day, for the first 48 hours or until swelling improves. If you use ice, be careful not to use it too long, as this could cause tissue damage.</string>
+
+    <string name="sprain4">Compress the area with an elastic wrap or bandage. Compressive wraps or sleeves made from elastic or neoprene are best.</string>
+
+    <string name="sprain5">Elevate the injured limb above your heart whenever possible to help prevent or limit swelling.</string>
+
+    <string name="hypothermia1">Gently move the person out of the cold.</string>
+
+    <string name="hypothermia2">If going indoors isn\'t possible, protect the person from the wind, especially around the neck and head. Insulate the individual from the cold ground.</string>
+
+    <string name="hypothermia3">Gently remove wet clothing. Replace wet things with warm, dry coats or blankets.If further warming is needed, do so gradually. For example, apply warm, dry compresses to the center of the body — neck, chest and groin. The CDC says another option is using an electric blanket, if available. If you use hot water bottles or a chemical hot pack, first wrap it in a towel before applying.</string>
+
+    <string name="hypothermia4">Offer the person warm, sweet, nonalcoholic drinks.</string>
+
+    <string name="hypothermia5">Begin CPR if the person shows no signs of life, such as breathing, coughing or movement.</string>
+</resources>

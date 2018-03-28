@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Aid"
+        android:id="@+id/FirstAid"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#E65100"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="Things to carry:"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water"
+        android:id="@+id/Water_txt"
+        android:textSize="24sp"
+        android:layout_marginTop="8dp"
+       />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FlashLight"
+        android:id="@+id/Flashlight_txt"
+        android:textSize="24sp"
+        android:layout_marginTop="8dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batteries"
+        android:id="@+id/Batteries_txt"
+        android:textSize="24sp"
+        android:layout_marginTop="8dp"
+
+        android:textColor="#000"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whistle"
+            android:textSize="24sp"
+            android:id="@+id/whistle_txt"
+            android:layout_marginTop="8dp"
+           />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blankets"
+            android:textSize="24sp"
+            android:id="@+id/blanket_txt"
+            android:layout_marginTop="8dp"
+           />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sleeping bags"
+            android:textSize="24sp"
+            android:id="@+id/sleep_txt"
+            android:layout_marginTop="8dp"
+           />
+
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Map of the area "
+            android:textSize="24sp"
+            android:id="@+id/map_txt"
+            android:layout_marginTop="8dp"
+           />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extra Cash"
+            android:textSize="24sp"
+            android:id="@+id/cash_txt"
+            android:layout_marginTop="8dp"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency contact information"
+            android:textSize="24sp"
+            android:id="@+id/emergency_txt"
+            android:layout_marginTop="8dp"
+          />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non Perishable food"
+            android:textSize="24sp"
+            android:id="@+id/food_txt"
+            android:layout_marginTop="8dp"
+           />
+</LinearLayout>
+</ScrollView>

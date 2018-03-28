@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="user.admin.com.myapplication">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCmw3AMDFKGIQoIGkq94cNqAK2JDxmicVs" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirstAid"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MyArea"
+            android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".WhatEarthquake"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".Evacuation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SendHelpSignal"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ReliefCamps"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MissingPeople"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TalkToOtherSurvivors"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DonateAndHelp"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SurvivorStories"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name="user.admin.com.firstaid.HeavyBleeding"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="user.admin.com.firstaid.Choking"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="user.admin.com.firstaid.SnakeBite"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="user.admin.com.firstaid.Burn"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="user.admin.com.firstaid.FirstAidKit"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="user.admin.com.firstaid.MuscleFracture"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="user.admin.com.firstaid.Sprain"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="user.admin.com.firstaid.Seizure"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="user.admin.com.firstaid.Hypothermia"
+            android:theme="@style/Theme.MyDialog" />
+        <activity android:name=".WhatShouldIDo"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity android:name=".WhatTsunami"
+            android:theme="@style/Theme.MyDialog"/>
+        <activity android:name=".WhatVolcano"
+            android:theme="@style/Theme.MyDialog"/>
+        <activity android:name=".WhatHurricane"
+            android:theme="@style/Theme.MyDialog"></activity>
+    </application>
+
+</manifest>

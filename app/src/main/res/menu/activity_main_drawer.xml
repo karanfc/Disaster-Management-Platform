@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_around_the_world"
+            android:icon="@drawable/ic_around_the_world"
+            android:title="Around the World" />
+        <item
+            android:id="@+id/nav_my_area"
+            android:icon="@drawable/ic_my_area"
+            android:title="My Area" />
+
+
+        <item
+            android:id="@+id/nav_first_aid"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="First Aid" />
+
+        <item
+            android:id="@+id/nav_what_to_do"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="What should I do " />
+
+
+
+    </group>
+
+    <item android:title="Disaster Victims">
+        <menu>
+            <item
+                android:id="@+id/nav_evacuation"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Evacuation" />
+            <item
+                android:id="@+id/nav_send_help_signal"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send help Signal" />
+
+            <item
+                android:id="@+id/nav_relief_camps"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Relief Camps" />
+            <item
+                android:id="@+id/nav_missing_people"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Missing people" />
+
+
+
+
+        </menu>
+
+
+    </item>
+
+
+    <item android:title="Recovery">
+        <menu>
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Talk to other survivors"/>
+
+            <item
+                android:id="@+id/nav_survivor_stories"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Survivor Stories" />
+        </menu>
+
+
+    </item>
+</menu>
